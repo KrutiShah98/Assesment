@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(85, 85, 226);
+    /* display: flex;
+    justify-content: space-around; */
+}
+.logo img{
+    padding: 20px;
+}
+.menu{
+    display: flex;
+    align-items:center;
+    justify-content: right;
+
+}
+.menu p{
+   padding: 10px; 
+}
