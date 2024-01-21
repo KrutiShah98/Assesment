@@ -54,7 +54,7 @@ z-index: 1;
  color:white;
   padding: 12px 16px;
   text-decoration: none;
-  display: block;
+  display:block;
   border: 1px solid white;
 }
 /* .drop-2:hover{
@@ -73,6 +73,10 @@ background-color: rgb(85, 85, 226);
 .list-2 a:hover{
     display: block;
 }
+.drop-2{
+    display: block  ;
+}
+.dropdown:hover
 
 
 
