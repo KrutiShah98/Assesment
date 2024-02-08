@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLider Change</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+
+</head>
+
+<body>
+    <div>
+        <div class="slider-box">
+            <img class="img1" style="display: block; height: 450px; width: 100%;"
+                src="../IMAGES/colin-watts-1NnQYfZxKQs-unsplash.jpg" alt="">
+            <img style="display: none; height: 450px; width: 100%;" class="img2"
+                src="../IMAGES/jigar-panchal-mSbTKLCZ4I0-unsplash.jpg" alt="">
+            <img style="display: none;height: 450px; width: 100%;" class="img3"
+                src="../IMAGES/mario-nardy-fkweuLrI0iU-unsplash.jpg" alt="">
+        </div>
+        <br>
+        <br>
+        <button onclick="changeme()">Click me to Change Slide</button>
+    </div>
+    <script>
+        const img1 = document.querySelector(".img1");
+        const img2 = document.querySelector(".img2");
+        const img3 = document.querySelector(".img3");
+
+        function changeme() {
+            if (img1.style.display === "block") {
+                img2.style.display = 'block';
+                img1.style.display = 'none';
+            } else {
+                img3.style.display = 'block';
+                img2.style.display = 'none';
+            }
+        }
+    </script>
+
+
+    <!-- <script src="script.js"></script> -->
+
+</body>
+
+</html>
